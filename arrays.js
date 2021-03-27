@@ -3,7 +3,7 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 function addElementToBeginningOfArray(chocolateBars, candyString){
 
-  return [candyString, chocolateBars];
+  return [candyString, ...chocolateBars];
 }
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString){
@@ -12,7 +12,7 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString){
 }
 
 function addElementToEndOfArray(chocolateBars, candyString){
-  return [chocolateBars, candyString];
+  return [...chocolateBars, candyString];
 }
 
 function destructivelyAddElementToEndOfArray(chocolateBars, candyString){
