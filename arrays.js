@@ -10,26 +10,27 @@ return chocolateBars;
 
 }
 
-function addElementToEndOfArray() {
-addElementToEndOfArray.push();
+function addElementToEndOfArray(chocolateBars, chocolateString) {
+return [candyString, chocolateBars];
 }
 
-function destructivelyAddElementToEndOfArray() {
-destructivelyAddElementToEndOfArray.push();
+function destructivelyAddElementToEndOfArray(chocolateBars, chocolateString) {
+chocolateBars.push(candyString);
+return chocolateBars;
 }
 
-function destructivelyRemoveElementFromBeginningOfArray() {
-
-}
-
-function removeElementFromBeginningOfArray() {
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars, chocolateString) {
 
 }
 
-function destructivelyRemoveElementFromEndOfArray() {
+function removeElementFromBeginningOfArray(chocolateBars, chocolateString) {
 
 }
 
-function removeElementFromEndOfArray() {
+function destructivelyRemoveElementFromEndOfArray(chocolateBars, chocolateString) {
+
+}
+
+function removeElementFromEndOfArray(chocolateBars, chocolateString) {
 
 }
